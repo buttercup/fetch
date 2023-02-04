@@ -1,0 +1,43 @@
+{
+  "name": "@buttercup/fetch",
+  "version": "0.0.0",
+  "description": "Fetch adapter for cross-platform use.",
+  "exports": {
+    ".": {
+      "browser": "./dist/index.browser.js",
+      "default": "./dist/index.node.js"
+    }
+  },
+  "types": "./dist/index.node.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "./dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buttercup/fetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "request"
+  ],
+  "author": "Perry Mitchell <perry@perrymitchell.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buttercup/fetch/issues"
+  },
+  "homepage": "https://github.com/buttercup/fetch#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "rimraf": "^4.1.2",
+    "typescript": "^4.9.5"
+  },
+  "optionalDependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}

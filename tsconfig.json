@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "outDir": "./dist",
+        "module": "es2020",
+        "moduleResolution": "node",
+        "declaration": true,
+        "rootDir": "./source",
+        "target": "es2020"
+    }
+}
