@@ -1,7 +1,7 @@
 # Fetch
 > Fetch adapter for cross-platform use.
 
-![Tests](https://github.com/perry-mitchell/obstate/actions/workflows/test.yml/badge.svg)
+![Tests](https://github.com/buttercup/fetch/actions/workflows/test.yml/badge.svg)
 
 ## About
 
