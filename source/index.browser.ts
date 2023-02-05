@@ -1,11 +1,13 @@
 // @ts-ignore
-const inWebWorker = typeof WorkerGlobalScope !== "undefined" && self instanceof WorkerGlobalScope;
+const inWebWorker =
+    typeof WorkerGlobalScope !== "undefined" &&
+    self instanceof WorkerGlobalScope;
 
 const root = inWebWorker
     ? self
     : typeof window !== "undefined"
-        ? window
-        : globalThis;
+    ? window
+    : globalThis;
 
 export const fetch = root.fetch;
 export const Headers = root.Headers;
