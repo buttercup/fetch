@@ -1,4 +1,7 @@
-// @ts-ignore
+declare global {
+    var WorkerGlobalScope: any;
+}
+
 const inWebWorker =
     typeof WorkerGlobalScope !== "undefined" &&
     self instanceof WorkerGlobalScope;
