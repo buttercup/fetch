@@ -1,6 +1,6 @@
 {
   "name": "@buttercup/fetch",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Fetch adapter for cross-platform use.",
   "type": "module",
   "exports": {
