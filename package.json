@@ -2,6 +2,7 @@
   "name": "@buttercup/fetch",
   "version": "0.0.0",
   "description": "Fetch adapter for cross-platform use.",
+  "type": "module",
   "exports": {
     ".": {
       "browser": "./dist/index.browser.js",
@@ -13,7 +14,8 @@
     "build": "npm run clean && tsc",
     "clean": "rimraf dist",
     "prepublishOnly": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:node",
+    "test:node": "npm run build && mocha 'test/node/**.spec.js'"
   },
   "files": [
     "./dist/**/*"
@@ -34,8 +36,12 @@
   "homepage": "https://github.com/buttercup/fetch#readme",
   "devDependencies": {
     "@types/node": "^18.11.18",
+    "chai": "^4.3.7",
+    "json-server": "^0.17.1",
+    "mocha": "^10.2.0",
     "rimraf": "^4.1.2",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "url-join": "^5.0.0"
   },
   "optionalDependencies": {
     "node-fetch": "^3.3.0"
