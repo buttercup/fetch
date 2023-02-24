@@ -1,7 +1,7 @@
 # Fetch
 > Fetch adapter for cross-platform use.
 
-![Tests](https://github.com/buttercup/fetch/actions/workflows/test.yml/badge.svg)
+[![Buttercup](https://cdn.rawgit.com/buttercup-pw/buttercup-assets/6582a033/badge/buttercup-slim.svg)](https://buttercup.pw) ![npm (scoped)](https://img.shields.io/npm/v/@buttercup/fetch) ![Tests](https://github.com/buttercup/fetch/actions/workflows/test.yml/badge.svg)
 
 ## About
 
