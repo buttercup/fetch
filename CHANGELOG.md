@@ -1,5 +1,10 @@
 # Fetch changelog
 
+## v0.1.2
+_2023-07-18_
+
+ * React-Native entry in `package.json`
+
 ## v0.1.1
 _2023-04-24_
 
