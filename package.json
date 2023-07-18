@@ -9,6 +9,7 @@
       "default": "./dist/index.node.js"
     }
   },
+  "react-native": "./dist/index.browser.js",
   "types": "./dist/index.node.d.ts",
   "scripts": {
     "build": "npm run clean && tsc",
