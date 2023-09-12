@@ -1,5 +1,10 @@
 # Fetch changelog
 
+## v0.2.0
+_2023-09-12_
+
+ * Expose `RequestInit` interface in node types
+
 ## v0.1.2
 _2023-07-18_
 
