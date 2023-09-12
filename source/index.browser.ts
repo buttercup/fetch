@@ -16,5 +16,3 @@ export const fetch = root.fetch.bind(root);
 export const Headers = root.Headers;
 export const Request = root.Request;
 export const Response = root.Response;
-
-export type { RequestInit } from "node-fetch";
