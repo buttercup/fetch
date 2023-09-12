@@ -1,5 +1,11 @@
 # Fetch changelog
 
+## v0.2.1
+_2023-09-12_
+
+ * Expose `RequestInit` from browser entry
+ * Expose `RequestInfo` from both entries
+
 ## v0.2.0
 _2023-09-12_
 
