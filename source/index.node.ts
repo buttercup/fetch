@@ -1,3 +1,3 @@
-import fetch, { Headers, Request, Response } from "node-fetch";
+import fetch, { Headers, Request, RequestInit, Response } from "node-fetch";
 
-export { fetch, Headers, Request, Response };
+export { fetch, Headers, Request, RequestInit, Response };
