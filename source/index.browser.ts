@@ -9,8 +9,8 @@ const inWebWorker =
 const root = inWebWorker
     ? self
     : typeof window !== "undefined"
-    ? window
-    : globalThis;
+      ? window
+      : globalThis;
 
 export const fetch = root.fetch.bind(root);
 export const Headers = root.Headers;
